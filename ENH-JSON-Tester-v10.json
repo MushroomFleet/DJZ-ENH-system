@@ -1,0 +1,1445 @@
+{
+  "id": "61631927-63f7-4f79-8c84-5e14ddde8b3f",
+  "revision": 0,
+  "last_node_id": 30,
+  "last_link_id": 39,
+  "nodes": [
+    {
+      "id": 11,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1490,
+        450
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 33
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "text1"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1690,
+        450
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 34
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "text2"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1900,
+        450
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 35
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "text3"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2100,
+        450
+      ],
+      "size": [
+        140,
+        76
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "text4"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1480,
+        670
+      ],
+      "size": [
+        210,
+        149.8730010986328
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 28
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "A serene mountain landscape at dawn with mist rolling over the peaks"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1690,
+        670
+      ],
+      "size": [
+        210,
+        149.8730010986328
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 29
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "A futuristic cityscape with neon lights reflecting on wet streets"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1890,
+        670
+      ],
+      "size": [
+        210,
+        148.8880157470703
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "A vintage library with leather-bound books and warm golden lighting"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2090,
+        670
+      ],
+      "size": [
+        210,
+        149.8730010986328
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "A magical forest clearing with ethereal light filtering through ancient trees"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "ENH_JSON",
+      "pos": [
+        1070,
+        420
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_text",
+          "type": "STRING",
+          "widget": {
+            "name": "json_text"
+          },
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output1",
+          "type": "STRING",
+          "links": [
+            33
+          ]
+        },
+        {
+          "name": "output2",
+          "type": "STRING",
+          "links": [
+            34
+          ]
+        },
+        {
+          "name": "output3",
+          "type": "STRING",
+          "links": [
+            35
+          ]
+        },
+        {
+          "name": "output4",
+          "type": "STRING",
+          "links": [
+            36
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ENH_JSON"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 25,
+      "type": "ENH_JSON",
+      "pos": [
+        1070,
+        670
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_text",
+          "type": "STRING",
+          "widget": {
+            "name": "json_text"
+          },
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output1",
+          "type": "STRING",
+          "links": [
+            28
+          ]
+        },
+        {
+          "name": "output2",
+          "type": "STRING",
+          "links": [
+            29
+          ]
+        },
+        {
+          "name": "output3",
+          "type": "STRING",
+          "links": [
+            30
+          ]
+        },
+        {
+          "name": "output4",
+          "type": "STRING",
+          "links": [
+            31
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ENH_JSON"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 24,
+      "type": "ENH_JSON",
+      "pos": [
+        1070,
+        950
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "json_text",
+          "type": "STRING",
+          "widget": {
+            "name": "json_text"
+          },
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output1",
+          "type": "STRING",
+          "links": [
+            23
+          ]
+        },
+        {
+          "name": "output2",
+          "type": "STRING",
+          "links": [
+            24
+          ]
+        },
+        {
+          "name": "output3",
+          "type": "STRING",
+          "links": [
+            25
+          ]
+        },
+        {
+          "name": "output4",
+          "type": "STRING",
+          "links": [
+            26
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ENH_JSON"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 21,
+      "type": "LoadImage",
+      "pos": [
+        -240.92234802246094,
+        752.2318725585938
+      ],
+      "size": [
+        274.080078125,
+        314.00006103515625
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.46",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "wan22_00032_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1698.9539794921875,
+        940.0000610351562
+      ],
+      "size": [
+        213.58172607421875,
+        413.1294860839844
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "anime TH0RR4 man in red jacket in extreme close up, intense focused expression with striking blue eyes reflecting code. Black outfit with red accents, dramatic side lighting from neon signs creates anime-style shadows across his face. Dark urban background blurred with bokeh effects. Professional anime illustration with detailed character features."
+      ]
+    },
+    {
+      "id": 18,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1909.6990966796875,
+        940
+      ],
+      "size": [
+        210,
+        412.41314697265625
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "anime TH0RR4 man in red jacket sneaking inside a snow-covered industrial setting, wide establishing shot of the cyberpunk cityscape with towering buildings. He appears small against the massive neon-lit environment while working at floating interface. Purple and cyan lighting dominates the scene with holographic advertisements. Cinematic anime art with atmospheric perspective and rich environmental details."
+      ]
+    },
+    {
+      "id": 19,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2117.758544921875,
+        938.0588989257812
+      ],
+      "size": [
+        216.26800537109375,
+        414.3830871582031
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 26
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "anime TH0RR4 man in red jacket shooting directly at the camera, dynamic action shot with flowing tactical gear and glowing neural implants. Low angle perspective emphasizes his athletic pose against neon-lit skyline. Motion blur on background while character remains sharp with anime-style motion lines. High-energy anime illustration with dramatic composition and vibrant neon lighting effects."
+      ]
+    },
+    {
+      "id": 16,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1490,
+        940
+      ],
+      "size": [
+        210,
+        412.2340393066406
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "anime TH0RR4 man in red jacket standing in a snow-covered industrial setting, medium shot showing his confident pose while looking around. Wearing a red jacket with fur-lined hood, black pants, and black boots. Snowflakes falling gently, dramatic shadows from the industrial structures. High detail anime art with vibrant cyberpunk color palette and sharp character design."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "DF_Text_Box",
+      "pos": [
+        458.8337097167969,
+        676.7882080078125
+      ],
+      "size": [
+        516.8802490234375,
+        163.36875915527344
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            27
+          ]
+        }
+      ],
+      "title": "json format B",
+      "properties": {
+        "cnr_id": "derfuu_comfyui_moddednodes",
+        "ver": "d0905bed31249f2bd0814c67585cf4fe3c77c015",
+        "Node name for S&R": "DF_Text_Box"
+      },
+      "widgets_values": [
+        "{\n  \"prompt1\": \"A serene mountain landscape at dawn with mist rolling over the peaks\",\n  \"prompt2\": \"A futuristic cityscape with neon lights reflecting on wet streets\",\n  \"prompt3\": \"A vintage library with leather-bound books and warm golden lighting\",\n  \"prompt4\": \"A magical forest clearing with ethereal light filtering through ancient trees\"\n}"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "DF_Text_Box",
+      "pos": [
+        458.6147155761719,
+        418.2473449707031
+      ],
+      "size": [
+        516.2247924804688,
+        150.25875854492188
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "title": "json format A",
+      "properties": {
+        "cnr_id": "derfuu_comfyui_moddednodes",
+        "ver": "d0905bed31249f2bd0814c67585cf4fe3c77c015",
+        "Node name for S&R": "DF_Text_Box"
+      },
+      "widgets_values": [
+        "{\n  \"prompts\": [\"text1\", \"text2\", \"text3\", \"text4\"]\n}"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "OllamaGenerateV2",
+      "pos": [
+        438.9544982910156,
+        953.0377807617188
+      ],
+      "size": [
+        524.8912353515625,
+        523.3864135742188
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "connectivity",
+          "shape": 7,
+          "type": "OLLAMA_CONNECTIVITY",
+          "link": 1
+        },
+        {
+          "name": "options",
+          "shape": 7,
+          "type": "OLLAMA_OPTIONS",
+          "link": 2
+        },
+        {
+          "name": "images",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 20
+        },
+        {
+          "name": "context",
+          "shape": 7,
+          "type": "OLLAMA_CONTEXT",
+          "link": null
+        },
+        {
+          "name": "meta",
+          "shape": 7,
+          "type": "OLLAMA_META",
+          "link": null
+        },
+        {
+          "name": "system",
+          "type": "STRING",
+          "widget": {
+            "name": "system"
+          },
+          "link": 39
+        }
+      ],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "STRING",
+          "links": [
+            21,
+            22
+          ]
+        },
+        {
+          "name": "context",
+          "type": "OLLAMA_CONTEXT",
+          "links": null
+        },
+        {
+          "name": "meta",
+          "type": "OLLAMA_META",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-ollama",
+        "ver": "2.0.5",
+        "Node name for S&R": "OllamaGenerateV2"
+      },
+      "widgets_values": [
+        "# Multi-Angle Image Prompt Enhancement System\nTransform user input (text + optional image) into four professional, visually-rich descriptions for AI image generation using different camera perspectives.\n\n## Core Function\n**Input**: User text prompt + optional reference image\n**Output**: JSON with 4 enhanced prompts representing different shot types\n**Consistency Rule**: All 4 prompts must share identical subject details, style, lighting, and scene elements\n\n## Vision Analysis Protocol\nWhen image provided:\n1. **Subject Analysis**: Detailed description of people, objects, clothing, expressions, poses\n2. **Environment**: Setting, background elements, architectural details, props\n3. **Style Detection**: Art style, photography type, rendering approach, color palette\n4. **Lighting**: Light sources, shadows, mood, time of day, atmosphere\n5. **Technical**: Textures, materials, image quality, post-processing effects\n\n## Enhancement Rules\n**Target**: 80-100 words per prompt with detailed visual specifications\n**Priority**: Vision analysis → User text direction → Content-appropriate style → High-quality default\n**Consistency Elements** (identical across all 4 prompts):\n- **Subject Details**: Appearance, clothing, expressions, age, ethnicity, hair, accessories\n- **Style & Technique**: Art style, rendering method, color palette, post-processing\n- **Lighting & Mood**: Light sources, shadows, atmosphere, time of day\n- **Scene Setting**: Location, background elements, environmental details\n\n## Four Shot Types\n\n### Prompt 1: Standard Shot\n- **Framing**: Medium shot, waist-up to full body\n- **Purpose**: Balanced composition showing subject and environment\n- **Angle**: Eye level, natural perspective\n- **Composition**: Rule of thirds, subject prominence with context\n\n### Prompt 2: Closeup Shot (Portrait)\n- **Framing**: Head and shoulders, intimate perspective\n- **Purpose**: Detailed facial features, expressions, emotions\n- **Angle**: Slight variations (eye level, slight high/low angle)\n- **Composition**: Centered or off-center for visual interest\n\n### Prompt 3: Wide Shot (Establishing)\n- **Framing**: Full scene, environmental context\n- **Purpose**: Show complete setting, scale, atmosphere\n- **Angle**: Often elevated or distanced perspective\n- **Composition**: Subject within broader environment\n\n### Prompt 4: Action Shot (Dynamic)\n- **Framing**: Captures movement, energy, motion\n- **Purpose**: Dynamic poses, action, dramatic angles\n- **Angle**: Dramatic perspectives (low angle, high angle, tilted)\n- **Composition**: Diagonal lines, motion blur, dynamic framing\n\n## Process Steps\n1. **Analyze Input**:\n   - If image provided: Extract all visual details for consistency base\n   - Parse user text for style preferences, subject modifications, scene direction\n\n2. **Establish Consistency Foundation**:\n   - Subject appearance (from vision analysis + user text)\n   - Art style and technique\n   - Lighting conditions and mood\n   - Environmental setting\n\n3. **Generate Four Perspectives**:\n   - Apply shot-specific framing and composition rules\n   - Maintain all consistency elements\n   - Add shot-appropriate technical details (lens, depth of field, etc.)\n   - Include quality and style descriptors\n\n4. **Output Format**:\n```json\n{\n  \"prompt1\": \"Standard shot description as single line paragraph\",\n  \"prompt2\": \"Closeup shot description as single line paragraph\", \n  \"prompt3\": \"Wide shot description as single line paragraph\",\n  \"prompt4\": \"Action shot description as single line paragraph\"\n}\n```\n\n## Technical Specifications\n- **Camera Details**: Lens focal length, depth of field, perspective\n- **Quality Descriptors**: High resolution, professional, detailed, sharp\n- **Style Consistency**: Same art style, color grading, post-processing across all shots\n- **Lighting Consistency**: Same light sources, time of day, atmospheric conditions\n\n## Example Output Structure\n**User Input**: \"Cyberpunk hacker girl\" + [reference image showing young woman with neon hair]\n\n**Vision Analysis**: Young Asian woman, short electric blue hair, dark clothing, neon lighting...\n\n**JSON Output**:\n```json\n{\n  \"prompt1\": \"Professional cyberpunk digital art, young Asian woman with short electric blue hair and glowing neural implants, wearing black leather jacket with neon trim. Medium shot showing her confident pose while typing on holographic interface. Dark urban alley background with purple and cyan neon lighting creating dramatic shadows. High-tech atmosphere with floating data streams. Photorealistic CG style with vibrant colors and sharp details.\",\n  \n  \"prompt2\": \"Cyberpunk portrait closeup, young Asian woman with electric blue hair and glowing neural implants at her temple. Intense focused expression with cyan-lit eyes reflecting code. Black leather jacket with neon accents. Dramatic side lighting from neon signs creates striking shadows across her face. Dark urban background blurred with bokeh. High detail digital art with vibrant cyberpunk color palette.\",\n  \n  \"prompt3\": \"Wide establishing shot of cyberpunk cityscape, young Asian woman with blue hair standing in vast neon-lit alley between towering buildings. Countless holographic advertisements and data streams fill the air. She appears small against the massive urban environment while working at floating interface. Purple and cyan lighting dominates the scene. Cinematic digital concept art with atmospheric perspective and rich details.\",\n  \n  \"prompt4\": \"Dynamic action shot, young Asian woman with electric blue hair leaping between buildings in cyberpunk chase scene. Black leather jacket flowing in motion, neural implants glowing bright. Low angle perspective emphasizes her athletic pose against neon-lit skyline. Motion blur on background while subject remains sharp. Dramatic lighting with streaking neon trails. High-energy digital art with cinematic composition.\"\n}\n```\n\nTransform any input into four coherent, professionally enhanced prompts that explore the subject from multiple cinematic perspectives while maintaining perfect visual consistency.",
+        "a man in a red jacket in a snow covered industrial setting",
+        true,
+        false,
+        "text"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1076.524169921875,
+        1408.177734375
+      ],
+      "size": [
+        1051.599853515625,
+        309.242431640625
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "### Prompt 1: Standard Shot\n- **Framing**: \"Medium shot showing the man in a red jacket standing in the snow-covered industrial setting.\"\n- **LoRA Integration**: \"anime TH0RR4 man in red jacket\"\n- **Anime Elements**: Detailed character design, dynamic pose, environmental context\n- **Composition**: Balanced anime composition with character prominence\n\n### Prompt 2: Closeup Shot (Portrait)\n- **Framing**: \"Close up anime [CHARACTER] portrait\" or \"extreme close up\"\n- **LoRA Integration**: \"anime TH0RR4 man in red jacket\"\n- **Anime Elements**: Detailed eyes, hair lighting, facial expressions, anime art style\n- **Composition**: Intimate character focus with dramatic lighting\n\n### Prompt 3: Wide Shot (Establishing)\n- **Framing**: \"Wide environmental shot showing the full scene context\"\n- **LoRA Integration**: \"anime TH0RR4 man in red jacket\"\n- **Anime Elements**: Detailed background, atmospheric perspective, scene composition\n- **Composition**: Character within broader anime-style environment\n\n### Prompt 4: Action Shot (Dynamic)\n- **Framing**: \"Dynamic action poses with movement and energy\"\n- **LoRA Integration**: \"anime TH0RR4 man in red jacket\"\n- **Anime Elements**: Motion lines, dynamic angles, action-oriented composition\n- **Composition**: Dramatic perspectives emphasizing movement and intensity\n\n### JSON Output\n```json\n{\n  \"prompt1\": \"anime TH0RR4 man in red jacket standing in a snow-covered industrial setting, medium shot showing his confident pose while looking around. Wearing a red jacket with fur-lined hood, black pants, and black boots. Snowflakes falling gently, dramatic shadows from the industrial structures. High detail anime art with vibrant cyberpunk color palette and sharp character design.\",\n  \n  \"prompt2\": \"anime TH0RR4 man in red jacket in extreme close up, intense focused expression with striking blue eyes reflecting code. Black outfit with red accents, dramatic side lighting from neon signs creates anime-style shadows across his face. Dark urban background blurred with bokeh effects. Professional anime illustration with detailed character features.\",\n  \n  \"prompt3\": \"anime TH0RR4 man in red jacket sneaking inside a snow-covered industrial setting, wide establishing shot of the cyberpunk cityscape with towering buildings. He appears small against the massive neon-lit environment while working at floating interface. Purple and cyan lighting dominates the scene with holographic advertisements. Cinematic anime art with atmospheric perspective and rich environmental details.\",\n  \n  \"prompt4\": \"anime TH0RR4 man in red jacket shooting directly at the camera, dynamic action shot with flowing tactical gear and glowing neural implants. Low angle perspective emphasizes his athletic pose against neon-lit skyline. Motion blur on background while character remains sharp with anime-style motion lines. High-energy anime illustration with dramatic composition and vibrant neon lighting effects.\"\n}\n```"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "OllamaConnectivityV2",
+      "pos": [
+        457.2734680175781,
+        1537.859130859375
+      ],
+      "size": [
+        270,
+        130
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "connection",
+          "type": "OLLAMA_CONNECTIVITY",
+          "links": [
+            1
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-ollama",
+        "ver": "2.0.5",
+        "Node name for S&R": "OllamaConnectivityV2"
+      },
+      "widgets_values": [
+        "http://127.0.0.1:11434",
+        "qwen2.5vl:3b",
+        0,
+        "minutes"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "OllamaOptionsV2",
+      "pos": [
+        753.970703125,
+        1550.548828125
+      ],
+      "size": [
+        286.103515625,
+        754
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "options",
+          "type": "OLLAMA_OPTIONS",
+          "links": [
+            2
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-ollama",
+        "ver": "2.0.5",
+        "Node name for S&R": "OllamaOptionsV2"
+      },
+      "widgets_values": [
+        false,
+        0,
+        false,
+        0.1,
+        false,
+        5,
+        false,
+        2048,
+        false,
+        64,
+        false,
+        1.1,
+        false,
+        0.8,
+        false,
+        1825597204,
+        "randomize",
+        false,
+        "",
+        false,
+        1,
+        false,
+        -1,
+        false,
+        40,
+        false,
+        0.9,
+        false,
+        0,
+        false
+      ]
+    },
+    {
+      "id": 22,
+      "type": "ImageResize+",
+      "pos": [
+        63.584346771240234,
+        779.7174072265625
+      ],
+      "size": [
+        270,
+        218
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_essentials",
+        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "nearest",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -127.93048858642578,
+        1331.2596435546875
+      ],
+      "size": [
+        386.4678955078125,
+        374.7258605957031
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "# Enhanced Multi-Angle Image Prompt System with LoRA Keywords\nTransform user input (text + optional image) into four professional, anime-style descriptions optimized for AI image generation using different camera perspectives and LoRA-trained keywords.\n\n## Core Function\n**Input**: User text prompt + optional reference image\n**Output**: JSON with 4 enhanced prompts representing different shot types\n**Style Priority**: Anime aesthetic with LoRA keyword integration\n**Consistency Rule**: All 4 prompts must share identical subject details, anime style, lighting, and scene elements\n\n## LoRA Integration Protocol\n**Primary Keywords**: Always include relevant LoRA triggers based on content analysis\n- **Character LoRA**: \"anime TH0RR4 woman with red hair\" (when applicable)\n- **Style Prefix**: Always begin with \"anime\" for consistency\n- **Environment Keywords**: \"sci-fi megatower interior\", \"megacity airlock\", \"cyberpunk setting\"\n- **Action Keywords**: \"shooting directly at camera\", \"sneaking inside\", \"holding gun\", \"crouching down\"\n\n## Vision Analysis Protocol\nWhen image provided:\n1. **Subject Analysis**: Detailed anime character features, clothing, expressions, poses, hair color/style\n2. **Environment**: Sci-fi settings, background elements, architectural details, lighting sources\n3. **Style Detection**: Anime art style, cel-shading, color palette, character design elements\n4. **Lighting**: Neon lights, red/blue lighting, dramatic shadows, cyberpunk atmosphere\n5. **Technical**: Anime rendering quality, sharp details, vibrant colors, high contrast\n\n## Enhancement Rules\n**Target**: 80-120 words per prompt with anime-specific visual specifications\n**Priority**: LoRA keywords → Vision analysis → User direction → Anime style consistency\n**Mandatory Elements** (identical across all 4 prompts):\n- **Anime Style Prefix**: \"anime\" + relevant LoRA character tags\n- **Character Details**: Hair color, outfit, expressions, age, distinctive features\n- **Art Style**: \"anime-style\", specific rendering techniques, color treatment\n- **Lighting & Atmosphere**: Red/blue neon lighting, dramatic shadows, cyberpunk mood\n- **Environment**: Consistent sci-fi/cyberpunk setting details\n\n## LoRA-Optimized Shot Types\n\n### Prompt 1: Standard Shot\n- **Framing**: \"Medium shot\" showing character waist-up or full body\n- **LoRA Integration**: Include primary character keywords + environment\n- **Anime Elements**: Detailed character design, dynamic pose, environmental context\n- **Composition**: Balanced anime composition with character prominence\n\n### Prompt 2: Closeup Shot (Portrait)\n- **Framing**: \"Close up anime [CHARACTER] portrait\" or \"extreme close up\"\n- **LoRA Integration**: Focus on character-specific keywords and facial features\n- **Anime Elements**: Detailed eyes, hair lighting, facial expressions, anime art style\n- **Composition**: Intimate character focus with dramatic lighting\n\n### Prompt 3: Wide Shot (Establishing)\n- **Framing**: Wide environmental shot showing full scene context\n- **LoRA Integration**: Environment keywords + character in setting\n- **Anime Elements**: Detailed background, atmospheric perspective, scene composition\n- **Composition**: Character within broader anime-style environment\n\n### Prompt 4: Action Shot (Dynamic)\n- **Framing**: Dynamic action poses with movement and energy\n- **LoRA Integration**: Action-specific keywords like \"shooting\", \"sneaking\", \"holding gun\"\n- **Anime Elements**: Motion lines, dynamic angles, action-oriented composition\n- **Composition**: Dramatic perspectives emphasizing movement and intensity\n\n## Anime Style Specifications\n- **Art Style**: Consistent anime/manga aesthetic with cel-shading\n- **Color Palette**: Vibrant colors, high contrast, dramatic lighting\n- **Character Design**: Large expressive eyes, detailed hair, distinctive outfits\n- **Environmental Style**: Detailed backgrounds, atmospheric lighting, cyberpunk elements\n- **Technical Quality**: \"High detail anime art\", \"professional anime illustration\"\n\n## LoRA Keyword Database\n**Character Keywords**:\n- \"anime TH0RR4 woman with red hair\"\n- \"anime kzk woman\" (alternative character)\n- Character-specific descriptors from training data\n\n**Environment Keywords**:\n- \"sci-fi megatower interior\"\n- \"megacity airlock\" \n- \"cyberpunk setting\"\n- \"neon-lit corridor\"\n- \"industrial environment\"\n\n**Action Keywords**:\n- \"shooting directly at the camera\"\n- \"sneaking inside\"\n- \"holding a gun/rifle\"\n- \"crouching down\"\n- \"standing in hallway\"\n\n**Style Keywords**:\n- \"anime-style\"\n- \"red and blue lights\"\n- \"neon lighting\"\n- \"tactical gear\"\n- \"futuristic outfit\"\n\n## Process Steps\n1. **LoRA Keyword Selection**:\n   - Identify relevant character, environment, and action keywords\n   - Match user intent with trained LoRA concepts\n   - Ensure anime style consistency\n\n2. **Analyze Input**:\n   - If image provided: Extract anime-style visual details for consistency\n   - Parse user text for character, setting, and action preferences\n   - Identify optimal LoRA keyword combinations\n\n3. **Establish Anime Foundation**:\n   - Character appearance with LoRA-specific details\n   - Anime art style and rendering approach\n   - Cyberpunk/sci-fi lighting and atmosphere\n   - Environmental setting with LoRA keywords\n\n4. **Generate Four Perspectives**:\n   - Apply shot-specific framing with anime composition rules\n   - Integrate appropriate LoRA keywords for each shot type\n   - Maintain anime style consistency across all variants\n   - Add shot-appropriate technical and atmospheric details\n\n5. **Output Format**:\n```json\n{\n  \"prompt1\": \"anime [LoRA keywords] standard shot description with detailed anime specifications\",\n  \"prompt2\": \"anime [LoRA keywords] closeup shot description with character focus\",\n  \"prompt3\": \"anime [LoRA keywords] wide shot description with environmental emphasis\", \n  \"prompt4\": \"anime [LoRA keywords] action shot description with dynamic elements\"\n}\n```\n\n## Technical Specifications\n- **Anime Quality**: \"High detail anime art\", \"professional anime illustration\", \"vibrant anime colors\"\n- **Lighting**: Consistent neon lighting, red/blue color schemes, dramatic shadows\n- **Style Consistency**: Same anime art approach, character design, environmental treatment\n- **LoRA Optimization**: Strategic keyword placement for optimal model activation\n\n## Example Output Structure\n**User Input**: \"Cyberpunk hacker girl with red hair\" + [reference anime image]\n\n**LoRA Analysis**: Character matches TH0RR4 training data, cyberpunk setting, tactical theme\n\n**JSON Output**:\n```json\n{\n  \"prompt1\": \"anime TH0RR4 woman with red hair holding a gun in a sci-fi megatower interior, medium shot showing her confident pose while typing on holographic interface. Wearing black tactical gear with red accents, neon-lit corridor background with red and blue lights creating dramatic shadows. High detail anime art with vibrant cyberpunk color palette and sharp character design.\",\n  \n  \"prompt2\": \"close up anime TH0RR4 woman with red hair wearing tactical gear portrait, intense focused expression with striking blue eyes reflecting code. Black outfit with red accents, dramatic side lighting from neon signs creates anime-style shadows across her face. Dark urban background blurred with bokeh effects. Professional anime illustration with detailed character features.\",\n  \n  \"prompt3\": \"anime TH0RR4 woman with red hair sneaking inside a sci-fi megatower interior, wide establishing shot of cyberpunk cityscape with towering buildings. She appears small against the massive neon-lit environment while working at floating interface. Purple and cyan lighting dominates the scene with holographic advertisements. Cinematic anime art with atmospheric perspective and rich environmental details.\",\n  \n  \"prompt4\": \"anime TH0RR4 woman with red hair shooting directly at the camera, dynamic action shot with flowing tactical gear and glowing neural implants. Low angle perspective emphasizes her athletic pose against neon-lit skyline. Motion blur on background while character remains sharp with anime-style motion lines. High-energy anime illustration with dramatic composition and vibrant neon lighting effects.\"\n}\n```\n\n## Auto-Enhancement Features\n- **Automatic LoRA Integration**: Smart keyword selection based on content analysis\n- **Anime Style Enforcement**: Consistent anime aesthetic across all outputs\n- **Environmental Auto-Fill**: Automatic cyberpunk/sci-fi details when appropriate\n- **Lighting Consistency**: Standardized neon/dramatic lighting schemes\n- **Character Detail Enhancement**: Automatic addition of anime-specific character features\n- **Action Optimization**: Dynamic pose and movement enhancements for action shots\n\nTransform any input into four coherent, LoRA-optimized anime prompts that explore the subject from multiple cinematic perspectives while maintaining perfect visual and stylistic consistency with the training data."
+      ]
+    },
+    {
+      "id": 27,
+      "type": "ZenkaiENH",
+      "pos": [
+        -130.70101928710938,
+        1227.8341064453125
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            38,
+            39
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ZenkaiENH"
+      },
+      "widgets_values": [
+        "t2i-TH0RR4-ENH-vision-4shot.md"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "Label (rgthree)",
+      "pos": [
+        -238.23097229003906,
+        132.58248901367188
+      ],
+      "size": [
+        1508.251953125,
+        100
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Drift Johnson | ScuffedEpoch.com",
+      "properties": {
+        "fontSize": 100,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 29,
+      "type": "Note",
+      "pos": [
+        -245.90875244140625,
+        309.1704406738281
+      ],
+      "size": [
+        633.2946166992188,
+        321.0430603027344
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ENH-JSON-Tester-v10\n\nVideo: https://www.youtube.com/@ScuffedEpoch\nWorkflow: https://civitai.com/user/driftjohnson\nWorkflow: https://huggingface.co/mushroomfleet\nhttps://github.com/MushroomFleet\nhttps://www.scuffedepoch.com\nhttps://www.oragenai.com\n\n\n\n\n[discord early editions]\nhttps://discord.com/invite/uubQXhwzkj \n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      1,
+      2,
+      0,
+      1,
+      0,
+      "OLLAMA_CONNECTIVITY"
+    ],
+    [
+      2,
+      3,
+      0,
+      1,
+      1,
+      "OLLAMA_OPTIONS"
+    ],
+    [
+      19,
+      21,
+      0,
+      22,
+      0,
+      "IMAGE"
+    ],
+    [
+      20,
+      22,
+      0,
+      1,
+      2,
+      "IMAGE"
+    ],
+    [
+      21,
+      1,
+      0,
+      23,
+      0,
+      "STRING"
+    ],
+    [
+      22,
+      1,
+      0,
+      24,
+      0,
+      "STRING"
+    ],
+    [
+      23,
+      24,
+      0,
+      16,
+      0,
+      "STRING"
+    ],
+    [
+      24,
+      24,
+      1,
+      17,
+      0,
+      "STRING"
+    ],
+    [
+      25,
+      24,
+      2,
+      18,
+      0,
+      "STRING"
+    ],
+    [
+      26,
+      24,
+      3,
+      19,
+      0,
+      "STRING"
+    ],
+    [
+      27,
+      4,
+      0,
+      25,
+      0,
+      "STRING"
+    ],
+    [
+      28,
+      25,
+      0,
+      7,
+      0,
+      "STRING"
+    ],
+    [
+      29,
+      25,
+      1,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      30,
+      25,
+      2,
+      9,
+      0,
+      "STRING"
+    ],
+    [
+      31,
+      25,
+      3,
+      10,
+      0,
+      "STRING"
+    ],
+    [
+      32,
+      6,
+      0,
+      26,
+      0,
+      "STRING"
+    ],
+    [
+      33,
+      26,
+      0,
+      11,
+      0,
+      "STRING"
+    ],
+    [
+      34,
+      26,
+      1,
+      12,
+      0,
+      "STRING"
+    ],
+    [
+      35,
+      26,
+      2,
+      13,
+      0,
+      "STRING"
+    ],
+    [
+      36,
+      26,
+      3,
+      14,
+      0,
+      "STRING"
+    ],
+    [
+      38,
+      27,
+      0,
+      28,
+      0,
+      "STRING"
+    ],
+    [
+      39,
+      27,
+      0,
+      1,
+      5,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "test group",
+      "bounding": [
+        435.9463806152344,
+        315.0879821777344,
+        1895.167236328125,
+        535.3526611328125
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "ollama",
+      "bounding": [
+        428.9544982910156,
+        864.4589233398438,
+        1915.0721435546875,
+        862.9612426757812
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "Vision input",
+      "bounding": [
+        -250.92234802246094,
+        678.6317138671875,
+        625.6187133789062,
+        425.4700927734375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "ENH loader",
+      "bounding": [
+        -140.70101928710938,
+        1154.234130859375,
+        409.2384338378906,
+        561.7513427734375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.3513057093105134,
+      "offset": [
+        405.66821644520917,
+        -144.65308038754742
+      ]
+    },
+    "frontendVersion": "1.26.0",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
