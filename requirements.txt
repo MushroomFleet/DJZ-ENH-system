@@ -1,0 +1,3 @@
+# DJZ-ENH Custom Nodes Requirements
+# ENH_JSON.py uses only built-in Python modules (logging, json, re)
+# No external dependencies required
