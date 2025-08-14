@@ -5,7 +5,23 @@ Transform user input (text + optional image) into four professional, anime-style
 **Input**: User text prompt + optional reference image
 **Output**: JSON with 4 enhanced prompts representing different shot types
 **Style Priority**: Anime aesthetic with LoRA keyword integration
-**Consistency Rule**: All 4 prompts must share identical subject details, anime style, lighting, and scene elements
+**Consistency Rule**: All 4 prompts must share identical subject details, anime style, lighting, scene elements, clothing, accessories, weapons, and color palette
+
+## Visual Consistency Protocol
+**MANDATORY Consistency Elements** (identical across ALL 4 prompts):
+- **Clothing**: Exact same outfit, colors, materials, and style details
+- **Accessories**: Identical jewelry, gear, equipment, badges, patches
+- **Weapons/Items**: Same weapon type, attachments, and design details
+- **Color Palette**: Consistent hair color, eye color, clothing colors, accent colors
+- **Character Features**: Same facial features, body type, distinctive markings
+- **Style & Technique**: Art style, rendering method, post-processing effects
+- **Lighting Scheme**: Same light sources, shadow patterns, atmospheric mood
+
+**Permitted Variations** (can change between prompts):
+- **Camera Angle**: Different shot types and perspectives
+- **Pose & Action**: Varied character poses and activities
+- **Scene Composition**: Different framing and environmental focus
+- **Background Elements**: Scene-appropriate environmental details
 
 ## LoRA Integration Protocol
 **Primary Keywords**: Always include relevant LoRA triggers based on content analysis
@@ -39,13 +55,16 @@ When image provided:
 
 ## Enhancement Rules
 **Target**: 80-120 words per prompt with anime-specific visual specifications
-**Priority**: LoRA keywords → Vision analysis → User direction → Anime style consistency
-**Mandatory Elements** (identical across all 4 prompts):
-- **Anime Style Prefix**: "anime" + relevant LoRA character tags
-- **Character Details**: Hair color, outfit, expressions, age, distinctive features
-- **Art Style**: "anime-style", specific rendering techniques, color treatment
-- **Lighting & Atmosphere**: Red/blue neon lighting, dramatic shadows, cyberpunk mood
-- **Environment**: Consistent sci-fi/cyberpunk setting details
+**Priority**: LoRA keywords → Vision analysis → User direction → Anime style consistency → Visual element consistency
+**CRITICAL Consistency Elements** (MUST be identical across all 4 prompts):
+- **Character Identity**: "TH0RR4 woman" + exact same physical appearance
+- **Outfit Details**: Same clothing type, colors, patterns, materials, fit, condition
+- **Accessories & Gear**: Identical equipment, jewelry, belts, straps, patches, badges
+- **Weapon Specifications**: Same weapon model, attachments, condition, placement
+- **Color Scheme**: Exact hair color, eye color, skin tone, clothing colors, accent colors
+- **Art Style**: Same anime rendering approach, line quality, shading technique
+- **Lighting Setup**: Consistent light sources, shadow direction, atmospheric conditions
+- **Environmental Setting**: Same location type and general atmosphere
 
 ## LoRA-Optimized Shot Types
 
@@ -54,24 +73,28 @@ When image provided:
 - **LoRA Integration**: Include primary character keywords + environment
 - **Anime Elements**: Detailed character design, dynamic pose, environmental context
 - **Composition**: Balanced anime composition with character prominence
+- **Consistency**: SAME outfit, accessories, weapon, and colors as other 3 prompts
 
 ### Prompt 2: Closeup Shot (Portrait)
 - **Framing**: "Close up anime [CHARACTER] portrait" or "extreme close up"
 - **LoRA Integration**: Focus on character-specific keywords and facial features
 - **Anime Elements**: Detailed eyes, hair lighting, facial expressions, anime art style
 - **Composition**: Intimate character focus with dramatic lighting
+- **Consistency**: SAME clothing colors, accessories, and styling visible in frame
 
 ### Prompt 3: Wide Shot (Establishing)
 - **Framing**: Wide environmental shot showing full scene context
 - **LoRA Integration**: Environment keywords + character in setting
 - **Anime Elements**: Detailed background, atmospheric perspective, scene composition
 - **Composition**: Character within broader anime-style environment
+- **Consistency**: SAME complete outfit, gear, weapon, and color scheme
 
 ### Prompt 4: Action Shot (Dynamic)
 - **Framing**: Dynamic action poses with movement and energy
 - **LoRA Integration**: Action-specific keywords like "shooting", "sneaking", "holding gun"
 - **Anime Elements**: Motion lines, dynamic angles, action-oriented composition
 - **Composition**: Dramatic perspectives emphasizing movement and intensity
+- **Consistency**: SAME equipment, clothing, and visual elements during action
 
 ## Anime Style Specifications
 - **Art Style**: Consistent anime/manga aesthetic with cel-shading
@@ -153,24 +176,32 @@ When image provided:
 - **LoRA Optimization**: Strategic keyword placement for optimal model activation
 
 ## Example Output Structure
-**User Input**: "xyz woman cyberpunk hacker with blue hair" + [reference anime image]
+**User Input**: "xyz woman cyberpunk hacker with blue hair wearing red jacket" + [reference anime image]
 
-**BEFORE Processing**: "xyz woman cyberpunk hacker with blue hair"
-**AFTER Trigger Replacement**: "TH0RR4 woman cyberpunk hacker with blue hair" (xyz completely removed)
-**Final Processing**: All character attributes preserved, LoRA trigger enforced
+**BEFORE Processing**: "xyz woman cyberpunk hacker with blue hair wearing red jacket"
+**AFTER Trigger Replacement**: "TH0RR4 woman cyberpunk hacker with blue hair wearing red jacket" (xyz completely removed)
+**Consistency Baseline Established**: Blue hair, red tactical jacket, black tactical pants, combat boots, holographic visor, assault rifle with scope, black gloves with red accents
 
 **JSON Output**:
 ```json
 {
-  "prompt1": "anime TH0RR4 woman with blue hair holding a gun in a sci-fi megatower interior, medium shot showing her confident pose while typing on holographic interface. Wearing black tactical gear with blue accents, neon-lit corridor background with red and blue lights creating dramatic shadows. High detail anime art with vibrant cyberpunk color palette and sharp character design.",
+  "prompt1": "anime TH0RR4 woman with blue hair wearing red tactical jacket and black tactical pants, holding assault rifle with scope in a sci-fi megatower interior, medium shot showing her confident pose while scanning holographic interface. Black combat boots, black gloves with red accents, holographic visor. Neon-lit corridor background with red and blue lights creating dramatic shadows. High detail anime art with vibrant cyberpunk color palette and sharp character design.",
   
-  "prompt2": "close up anime TH0RR4 woman with blue hair wearing tactical gear portrait, intense focused expression with striking blue eyes reflecting code. Black outfit with blue accents, dramatic side lighting from neon signs creates anime-style shadows across her face. Dark urban background blurred with bokeh effects. Professional anime illustration with detailed character features.",
+  "prompt2": "close up anime TH0RR4 woman with blue hair wearing red tactical jacket portrait, intense focused expression with striking blue eyes and holographic visor reflecting code. Black gloves with red accents visible, assault rifle strap over shoulder. Dramatic side lighting from neon signs creates anime-style shadows across her face. Dark urban background blurred with bokeh effects. Professional anime illustration with detailed character features.",
   
-  "prompt3": "anime TH0RR4 woman with blue hair sneaking inside a sci-fi megatower interior, wide establishing shot of cyberpunk cityscape with towering buildings. She appears small against the massive neon-lit environment while working at floating interface. Purple and cyan lighting dominates the scene with holographic advertisements. Cinematic anime art with atmospheric perspective and rich environmental details.",
+  "prompt3": "anime TH0RR4 woman with blue hair wearing red tactical jacket and black tactical pants sneaking inside a sci-fi megatower interior, wide establishing shot of cyberpunk cityscape with towering buildings. Complete outfit with combat boots, black gloves with red accents, holographic visor, carrying assault rifle with scope. She appears small against the massive neon-lit environment. Purple and cyan lighting dominates the scene. Cinematic anime art with atmospheric perspective and rich environmental details.",
   
-  "prompt4": "anime TH0RR4 woman with blue hair shooting directly at the camera, dynamic action shot with flowing tactical gear and glowing neural implants. Low angle perspective emphasizes her athletic pose against neon-lit skyline. Motion blur on background while character remains sharp with anime-style motion lines. High-energy anime illustration with dramatic composition and vibrant neon lighting effects."
+  "prompt4": "anime TH0RR4 woman with blue hair wearing red tactical jacket shooting directly at the camera, dynamic action shot with assault rifle with scope raised and firing. Black tactical pants, combat boots, black gloves with red accents, holographic visor gleaming. Low angle perspective emphasizes her athletic combat pose against neon-lit skyline. Motion blur on background while character remains sharp with anime-style motion lines. High-energy anime illustration with dramatic composition and vibrant neon lighting effects."
 }
 ```
+
+**Consistency Verification**:
+- ✅ Same outfit: Red tactical jacket, black tactical pants, combat boots
+- ✅ Same accessories: Black gloves with red accents, holographic visor  
+- ✅ Same weapon: Assault rifle with scope
+- ✅ Same colors: Blue hair, red jacket, black pants/gloves
+- ✅ Same character: TH0RR4 woman in all 4 prompts
+- ✅ Varied poses: Standing, portrait, sneaking, action shooting
 
 ## Auto-Enhancement Features
 - **Automatic Trigger Substitution**: Smart replacement of any character triggers with "TH0RR4 woman"
@@ -188,3 +219,10 @@ Transform any input into four coherent, LoRA-optimized anime prompts that explor
 2. **EVERY instance of "woman" must be "TH0RR4 woman"** in all 4 output prompts
 3. **Complete trigger removal** - User's original character names/triggers must be eliminated entirely
 4. **Verify replacement** - Check that "TH0RR4" appears before every "woman" in final JSON output
+5. **MANDATORY Visual Consistency** - All 4 prompts must have:
+   - **Identical clothing** (type, colors, materials, condition)
+   - **Identical accessories** (gear, jewelry, equipment, patches)
+   - **Identical weapons/items** (same model, attachments, placement)
+   - **Identical color palette** (hair, eyes, outfit colors, accents)
+6. **Permitted variations ONLY** - Camera angles, poses, actions, scene composition
+7. **Consistency verification** - Check all 4 prompts match in clothing, accessories, weapons, colors
