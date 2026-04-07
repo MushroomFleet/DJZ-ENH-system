@@ -250,3 +250,11 @@ For LoRA-aware prompting:
 ---
 
 *This system transforms single prompts into professional, multi-perspective image generation workflows while maintaining consistency and quality across all outputs.*
+
+---
+
+## Support This Project
+
+If you found this useful, please **star the repo** — it helps others discover it!
+
+[![Star on GitHub](https://img.shields.io/github/stars/MushroomFleet/DJZ-ENH-system?style=social)](https://github.com/MushroomFleet/DJZ-ENH-system)
